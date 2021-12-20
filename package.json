@@ -29,7 +29,7 @@
     "typescript": "4.5.4"
   },
   "lint-staged": {
-    "pages/*.{js,ts,tsx,jsx}": [
+    "pages/**/*.{js,ts,tsx,jsx}": [
       "npm run lint"
     ]
   }
