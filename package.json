@@ -5,7 +5,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint && prettier --config .prettierrc 'pages/**/*.{ts,tsx}' --write",
+    "lint": "next lint --quiet --fix && prettier --config .prettierrc 'pages/**/*.{ts,tsx}' --write",
     "prepare": "husky install"
   },
   "dependencies": {
